@@ -18,7 +18,20 @@
     release-after-ms = <2000>;
     quick-release;
 };
+/ {
+    combos {
+        compatible = "zmk,combos";
 
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <16 15>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <10 24>;
+        };
+};
 
 
     behaviors {
@@ -59,21 +72,7 @@
             flavor = "tap-preferred";
         };
     };
-    
-    combos {
-        compatible = "zmk,combos";
 
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <16 15>;
-        };
-
-        delete {
-            bindings = <&kp DELETE>;
-            key-positions = <10 24>;
-        };
-    };
-/ {
     keymap {
         compatible = "zmk,keymap";
 
