@@ -25,7 +25,7 @@
         };
     };
 };
-\ {
+
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
@@ -40,16 +40,16 @@
             global-quick-tap;
         };
 
-	        num_word: behavior_num_word {
-			compatible = "zmk,behavior-caps-word";
-			label = "NUM_WORD";
-			#binding-cells = <0>;
+        num_word: behavior_num_word {
+            compatible = "zmk,behavior-caps-word";
+            label = "NUM_WORD";
+            #binding-cells = <0>;
             layers = <NUM>;                                // insert location of numbers layer here
-			continue-list = <BACKSPACE DELETE DOT COMMA>;  // adjust as desired
+            continue-list = <BACKSPACE DELETE DOT COMMA>;  // adjust as desired
             ignore-numbers;                                // numbers don't deactivate the layer
 		};
 	};
-};
+
 
 &num_word {
     layers = <NUM>;  // replace NUM by the location of numbers layer
