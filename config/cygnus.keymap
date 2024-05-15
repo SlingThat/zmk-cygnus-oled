@@ -8,7 +8,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-
+/ {
     behaviors {
 		        num_word: behavior_num_word {
 			compatible = "zmk,behavior-caps-word";
@@ -19,7 +19,7 @@
                         ignore-numbers;                                // numbers don't deactivate the layer
 		};
 	};
-
+};
 / {
     combos {
         compatible = "zmk,combos";
