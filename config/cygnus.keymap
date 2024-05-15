@@ -37,19 +37,7 @@
             quick-tap-ms = <180>;
             global-quick-tap;
         };
-		    num_word: behavior_num_word {
-			compatible = "zmk,behavior-caps-word";
-			label = "NUM_WORD";
-			#binding-cells = <0>;
-                        layers = <num>;                                // insert location of numbers layer here
-			continue-list = <BACKSPACE DELETE DOT COMMA>;  // adjust as desired
-                        ignore-numbers;                                // numbers don't deactivate the layer
-		};
-	};
     };
-    &num_word {
-    layers = <num>;  // replace NUM by the location of numbers layer
-};
 
     keymap {
         compatible = "zmk,keymap";
