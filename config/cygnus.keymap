@@ -42,7 +42,9 @@
             ignore-numbers;
         };
     };
-
+        &num_word {
+            layers = <num>;  // replace NUM by the location of numbers layer
+};
     keymap {
         compatible = "zmk,keymap";
 
