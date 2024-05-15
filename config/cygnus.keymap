@@ -25,6 +25,7 @@
         };
     };
 };
+\ {
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
@@ -48,7 +49,7 @@
             ignore-numbers;                                // numbers don't deactivate the layer
 		};
 	};
-
+};
 
 &num_word {
     layers = <NUM>;  // replace NUM by the location of numbers layer
