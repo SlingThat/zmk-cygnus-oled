@@ -33,11 +33,13 @@
             global-quick-tap;
         };
 
-        new_behavior: new_behavior {
+        num_word: behavior_num_word {
             compatible = "zmk,behavior-caps-word";
-            label = "NEW_BEHAVIOR";
+            label = "NUM_WORD";
             #binding-cells = <0>;
-            continue-list = <NUMBER_0>;
+            layers = <1>;
+            continue-list = <BACKSPACE DELETE DOT COMMA>;
+            ignore-numbers;
         };
     };
 
