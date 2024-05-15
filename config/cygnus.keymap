@@ -37,7 +37,7 @@
             compatible = "zmk,behavior-caps-word";
             label = "NUM_WORD";
             #binding-cells = <0>;
-            layers = <1>;
+            layers = <num>;
             continue-list = <BACKSPACE DELETE DOT COMMA>;
             ignore-numbers;
         };
