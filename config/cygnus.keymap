@@ -71,7 +71,7 @@
 &kp N1     &kp N7     &kp N8    &kp N9  &kp N5         &kp N6    &kp N7    &kp N8    &kp N9     &kp N0
 &hm LGUI N0     &hm LSHFT N4     &hm LALT N5    &hm LCTRL N6  &kp PAGE_UP    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans
 &trans     &kp N1     &kp N2    &kp N3  &kp PAGE_DOWN  &trans    &trans    &trans    &trans     &trans
-&num_word  &kp LSHFT  &kp LGUI  &mo 2   &kp SPACE      &kp RET   &lt 1 TAB     &kp BSPC  &kp RALT   &kp ESC
+&trans  &kp LSHFT  &kp LGUI  &mo 2   &kp SPACE      &kp RET   &lt 1 TAB     &kp BSPC  &kp RALT   &kp ESC
             >;
         };
 
