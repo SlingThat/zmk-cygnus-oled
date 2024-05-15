@@ -32,15 +32,6 @@
             quick-tap-ms = <180>;
             global-quick-tap;
         };
-
-        num_word: behavior_num_word {
-            compatible = "zmk,behavior-caps-word";
-            label = "NUM_WORD";
-            #binding-cells = <0>;
-            layers = <1>;
-            continue-list = <BACKSPACE DELETE DOT COMMA>;
-            ignore-numbers;
-        };
     };
     keymap {
         compatible = "zmk,keymap";
