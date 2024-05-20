@@ -3,22 +3,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <16 15>;
-        };
-
-        delete {
-            bindings = <&kp DELETE>;
-            key-positions = <10 24>;
-        };
-    };
-};
-
-/ {
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
