@@ -32,6 +32,7 @@
 &hm LGUI A  &hm LSHFT S  &hm LALT D  &hm LCTRL F  &kp G      &kp H    &hm LCTRL J  &hm LALT K  &hm LSHFT L  &hm LGUI SEMI
 &kp Z       &kp X        &kp C       &kp V        &kp B      &kp N    &kp M        &kp COMMA   &kp DOT      &kp FSLH
             &kp LGUI    &mo 2        &kp SPACE  &kp RET  &lt 1 TAB    &kp BSPC
+            >;
         };
 
         num {
